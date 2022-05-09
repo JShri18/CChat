@@ -1,0 +1,26 @@
+.messageBox{
+    background-color: gainsboro;
+    width: 50%;
+    padding: 1vmax;
+    margin-top: 1.1vmax;
+    border-radius: 2px;
+    display: inline-block;
+    clear: both;
+    margin-left: 0.25vmax;
+    margin-right: 0.25vmax;
+}
+
+.right{
+    float: right;
+    width: 15vmax;
+    background-color: rgb(4, 16, 124);
+    border:1px solid white;
+    color: white;
+}
+.left{
+    float: left;
+    width: 15vmax;
+    background-color: rgb(11, 168, 189);
+    border:1px solid white;
+    color: white;
+}

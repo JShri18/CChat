@@ -1,0 +1,72 @@
+.JoinPage{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JoinContainer{
+    height: 50%;
+    width: 28%;
+    background-color: rgb(183, 208, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+}
+.joinHeader{
+    display: flex;
+    border: 0.2vmax solid rgb(245, 245, 245);
+    width: 98%;
+    background-color: rgb(23, 0, 59);
+    align-items: center;
+    justify-content: center;
+
+}
+.joinHeader>h1{
+    font-size: 2.5vmax;
+    margin: 0;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1vmax;
+    text-align: center;
+    box-sizing: border-box;
+}
+#logo2{
+    height: 4vmax;
+    width: 4vmax;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#joinInput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border:none;
+    outline: none;
+    font-size: 1.2vmax;
+    border: 2px solid rgb(23, 0, 59);
+    border-radius: 3px;
+    margin:2vmax;
+    box-sizing: border-box;
+}
+.joinBtn{
+    width: 20vmax;
+    padding: 1vmax;
+    border:none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin:2vmax;
+    color: white;
+    background-color: rgb(57, 107, 128);
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 2vmax;
+    font-family: "Roboto";
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.joinBtn:hover{
+    background-color: rgb(21, 3, 73);
+}
